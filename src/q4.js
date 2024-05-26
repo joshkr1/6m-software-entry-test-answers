@@ -7,6 +7,11 @@
 */
 
 // Task 1: Add code here
+const print = () => {
+    return "Hello World";
+}
+
+export default print;
 
 // Do not change the code below
 document.querySelector("#test").innerHTML = print();

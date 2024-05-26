@@ -21,7 +21,7 @@ const dog = {
     breed: "dog"
 }
 
-const cat = dog; // Modify this line
+const cat = cat; // Modify this line
 
 cat.breed = "cat";
 

@@ -11,12 +11,18 @@
 
 
 // Task 1: Add code here
-
-function addPatient(patientName){
+patients = []
+function addPatient(patientName)
+{
     // Task 2: Add code here
+	def add_patient(name):
+    patients.append(name)
 }
 
 // Task 3: Add code here
+def list_patients():
+    for patient in patients:
+        print(patient)
 
 
 addPatient("John");
